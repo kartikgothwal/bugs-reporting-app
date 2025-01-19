@@ -1,10 +1,13 @@
 import "./App.css";
-import Normal from "./components/Memo/Parent";
+import ChildrenProps from "./components/ChildrenProps/ChildrenProps";
+
 
 function App() {
   return (
     <>
-      <Normal />
+    <ChildrenProps>
+      <h1>Hello world</h1>
+    </ChildrenProps>
     </>
   );
 }
